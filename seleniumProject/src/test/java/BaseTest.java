@@ -8,7 +8,7 @@ public class BaseTest extends Initial {
 
     @Before
     public void opening(){
-        super.initialStep();
+        initialStep();
     }
 
     @Test
