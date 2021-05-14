@@ -20,7 +20,7 @@ public class Product {
         imageBttn.click();
     }
 
-    By addToBasket = By.xpath("//*[@id='add-to-basket']");
+    By addToBasket = By.xpath("//button[@class='control-button gg-ui-button plr10 gg-ui-btn-default']");
 
     public void addToBasket(){
         WebElement addToBskt = driver.findElement(addToBasket);
